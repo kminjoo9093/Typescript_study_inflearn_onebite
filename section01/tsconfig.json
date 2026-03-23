@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "esnext", //js 버전
+    "module": "ESNext", //모듈시스템
+    "outDir": "dist", //컴파일된 js 파일 저장
+    "strict": false, //엄격한 타입 관리
+    "moduleDetection": "force", //변수 전역 스코프 방지
+    "skipLibCheck": true,
+  },
+  "include": ["src"],
+}
