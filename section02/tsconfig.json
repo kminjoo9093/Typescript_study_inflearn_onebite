@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "outDir": "dist",
+    "strict": true,
+    // "strictNullChecks": false, //엄격한 널 검사
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+  },
+  "include": ["src"]
+}
